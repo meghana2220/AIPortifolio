@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meghana Agarwal | Frontend & Backend Developer | Java Trainer</title>
+  <meta name="description" content="Portfolio of Meghana Agarwal — Frontend Developer, Backend Developer, and Java Trainer. Building elegant interfaces and reliable backend systems.">
+  <meta name="keywords" content="Meghana Agarwal, Frontend Developer, Backend Developer, Java Trainer, Spring Boot, React, MCA, Portfolio">
+  <meta name="author" content="Meghana Agarwal">
+
+  <!-- Google Fonts: Outfit (headings) & Plus Jakarta Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Interactive JavaScript -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Brand Logo & Name -->
+      <a href="#home" class="nav-brand" aria-label="Meghana Agarwal Home">
+        <span class="brand-logo">MA</span>
+        <span class="brand-name">Meghana Agarwal</span>
+      </a>
+
+      <!-- Pure CSS Responsive Hamburger Toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-btn" aria-hidden="true">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="home">
+      <!-- Soft purple gradient glow backdrop -->
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <!-- Hero Left Column: Bio & Calls to Action -->
+        <div class="hero-content">
+          <div class="hero-label-pill">
+            <span class="pulse-indicator" aria-hidden="true"></span>
+            <span>HELLO, I'M</span>
+          </div>
+
+          <h1 class="hero-name">Meghana Agarwal</h1>
+
+          <p class="hero-title">Frontend Developer | Backend Developer | Java Trainer</p>
+
+          <p class="hero-tagline">
+            &ldquo;Building Ideas Into Beautiful Interfaces and Powerful Applications.&rdquo;
+          </p>
+
+          <p class="hero-intro">
+            I'm a technology professional with experience as a Java Trainer at Teks Academy and an interest in building responsive user interfaces and reliable backend applications. I enjoy working with modern web technologies, solving programming problems, and turning ideas into practical digital solutions.
+          </p>
+
+          <div class="hero-pillars">
+            <span>Frontend Development</span>
+            <span class="pillar-dot">•</span>
+            <span>Backend Development</span>
+            <span class="pillar-dot">•</span>
+            <span>Technical Training</span>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <a href="Meghana_Agarwal_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <svg class="btn-icon doc-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              <span>View Resume</span>
+            </a>
+          </div>
+
+          <p class="hero-note">
+            <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            Focused on creating clean, responsive, and user-friendly applications.
+          </p>
+        </div>
+
+        <!-- Hero Right Column: Profile Initials Frame & Floating Badge -->
+        <div class="hero-visual">
+          <div class="hero-visual-frame">
+            <div class="frame-backdrop-glow" aria-hidden="true"></div>
+
+            <!-- Profile Initials Card -->
+            <div class="profile-card" role="img" aria-label="Meghana Agarwal Profile Visual">
+              <div class="profile-avatar-wrapper">
+                <div class="avatar-initials">MA</div>
+              </div>
+              <div class="profile-card-caption">
+                <span class="profile-card-name">Meghana Agarwal</span>
+                <span class="profile-card-role">Software Developer</span>
+              </div>
+              <div class="profile-card-lines" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <!-- Floating Info Card -->
+            <div class="floating-info-card">
+              <div class="floating-icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="floating-text">
+                <span class="floating-title">Java Trainer | Developer</span>
+                <span class="floating-sub">Full Stack & Mentorship</span>
+              </div>
+            </div>
+
+            <!-- Small Accent Chip -->
+            <div class="floating-accent-chip" aria-hidden="true">
+              <span class="chip-dot"></span>
+              <span>Clean Code & Systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. ABOUT ME SECTION
+         ========================================================================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">About Me</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Developer by Passion. Educator by Experience.</p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Narrative Content -->
+          <div class="about-narrative">
+            <div class="about-prose">
+              <p>
+                I'm Meghana Agarwal, a technology professional with experience as a Java Trainer at Teks Academy. My work involves explaining programming concepts, guiding learners through practical examples, and encouraging hands-on development.
+              </p>
+              <p>
+                My technical interests span frontend and backend development, including responsive web design, Java application development, Python, frameworks, and relational databases.
+              </p>
+              <p>
+                I enjoy creating practical applications, exploring new technologies, and continuously improving my development and problem-solving skills.
+              </p>
+            </div>
+
+            <!-- Three Compact Highlights -->
+            <div class="about-highlights-list">
+              <!-- Highlight 1: Experience -->
+              <div class="highlight-item">
+                <div class="highlight-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                  </svg>
+                </div>
+                <div class="highlight-details">
+                  <span class="highlight-label">Professional Experience</span>
+                  <span class="highlight-value">Java Trainer</span>
+                </div>
+              </div>
+
+              <!-- Highlight 2: Development Focus -->
+              <div class="highlight-item">
+                <div class="highlight-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div class="highlight-details">
+                  <span class="highlight-label">Development Focus</span>
+                  <span class="highlight-value">Frontend &amp; Backend</span>
+                </div>
+              </div>
+
+              <!-- Highlight 3: Education -->
+              <div class="highlight-item">
+                <div class="highlight-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div class="highlight-details">
+                  <span class="highlight-label">Education</span>
+                  <span class="highlight-value">MCA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Decorative Profile Information Card -->
+          <div class="about-card-wrapper">
+            <div class="decorative-card">
+              <div class="decorative-card-header">
+                <div class="decorative-avatar">
+                  <span>MA</span>
+                </div>
+                <div class="decorative-info">
+                  <h3 class="decorative-name">Meghana Agarwal</h3>
+                  <span class="decorative-badge">Educator &bull; Engineer</span>
+                </div>
+              </div>
+
+              <div class="decorative-card-body">
+                <div class="decorative-stat-row">
+                  <div class="stat-bubble">
+                    <span class="stat-tag">Core Focus</span>
+                    <strong class="stat-highlight">Java &amp; Full Stack</strong>
+                  </div>
+                  <div class="stat-bubble">
+                    <span class="stat-tag">Training Role</span>
+                    <strong class="stat-highlight">Teks Academy</strong>
+                  </div>
+                </div>
+
+                <p class="decorative-quote">
+                  &ldquo;Dedicated to guiding students and engineering intuitive, robust web software with modern architecture.&rdquo;
+                </p>
+
+                <div class="decorative-tags-row">
+                  <span class="mini-tag">Object-Oriented Design</span>
+                  <span class="mini-tag">Modern Web Interfaces</span>
+                  <span class="mini-tag">REST APIs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. TECHNICAL SKILLS SECTION
+         ========================================================================= -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Technical Skills</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Tools and Technologies I Work With</p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 1: Frontend Development -->
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Frontend Development</h3>
+            </div>
+            <p class="skill-card-desc">Crafting responsive, dynamic, and accessible interfaces.</p>
+            <div class="skill-tags">
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">React.js</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Backend Development -->
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Backend Development</h3>
+            </div>
+            <p class="skill-card-desc">Engineering robust application logic and scalable server APIs.</p>
+            <div class="skill-tags">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Spring Boot</span>
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">Django</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Databases -->
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Databases</h3>
+            </div>
+            <p class="skill-card-desc">Designing schemas, querying data, and ensuring data integrity.</p>
+            <div class="skill-tags">
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">MySQL</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Tools & Version Control -->
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <div class="skill-icon-wrap" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="6" y1="3" x2="6" y2="15"></line>
+                  <circle cx="18" cy="6" r="3"></circle>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <path d="M18 9a9 9 0 0 1-9 9"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Tools &amp; Version Control</h3>
+            </div>
+            <p class="skill-card-desc">Source control, collaboration, code reviews, and workflow tracking.</p>
+            <div class="skill-tags">
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. PROFESSIONAL EXPERIENCE SECTION
+         ========================================================================= -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Career Journey</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">Practical Teaching and Mentorship in Application Development</p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="experience-card-container">
+          <article class="experience-card">
+            <div class="experience-card-header">
+              <div class="experience-role-group">
+                <div class="experience-icon-badge" aria-hidden="true">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="experience-title">Java Trainer</h3>
+                  <p class="experience-company">Teks Academy</p>
+                </div>
+              </div>
+
+              <div class="experience-status-badge">
+                <span>Technical Training</span>
+              </div>
+            </div>
+
+            <div class="experience-card-body">
+              <h4 class="responsibilities-title">Key Responsibilities:</h4>
+              <ul class="responsibilities-list">
+                <li>
+                  <span class="check-bullet" aria-hidden="true">&bull;</span>
+                  <span>Explain Java programming concepts using clear examples and practical demonstrations.</span>
+                </li>
+                <li>
+                  <span class="check-bullet" aria-hidden="true">&bull;</span>
+                  <span>Teach core Java concepts and object-oriented programming.</span>
+                </li>
+                <li>
+                  <span class="check-bullet" aria-hidden="true">&bull;</span>
+                  <span>Guide students through coding exercises and programming assignments.</span>
+                </li>
+                <li>
+                  <span class="check-bullet" aria-hidden="true">&bull;</span>
+                  <span>Support hands-on learning and understanding of application development concepts.</span>
+                </li>
+                <li>
+                  <span class="check-bullet" aria-hidden="true">&bull;</span>
+                  <span>Encourage problem-solving and logical thinking through practical programming activities.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="experience-card-footer">
+              <span class="experience-tech-label">Technology &amp; Domain Tags:</span>
+              <div class="experience-tags">
+                <span class="exp-tag">Java</span>
+                <span class="exp-tag">Core Java</span>
+                <span class="exp-tag">OOP</span>
+                <span class="exp-tag">Programming Fundamentals</span>
+                <span class="exp-tag">Technical Training</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. EDUCATION SECTION
+         ========================================================================= -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Education</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">My Academic Background</p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="education-grid">
+          <!-- Card 1: MCA -->
+          <article class="education-card">
+            <div class="edu-top">
+              <div class="edu-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <span class="edu-abbr-badge">MCA</span>
+            </div>
+            <div class="edu-content">
+              <h3 class="edu-qualification">Master of Computer Applications</h3>
+              <p class="edu-label">Postgraduate Degree</p>
+            </div>
+          </article>
+
+          <!-- Card 2: B.Sc. -->
+          <article class="education-card">
+            <div class="edu-top">
+              <div class="edu-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <span class="edu-abbr-badge">B.Sc.</span>
+            </div>
+            <div class="edu-content">
+              <h3 class="edu-qualification">Bachelor of Science</h3>
+              <p class="edu-label">Undergraduate Degree</p>
+            </div>
+          </article>
+
+          <!-- Card 3: MPC -->
+          <article class="education-card">
+            <div class="edu-top">
+              <div class="edu-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <span class="edu-abbr-badge">MPC</span>
+            </div>
+            <div class="edu-content">
+              <h3 class="edu-qualification">Mathematics, Physics and Chemistry</h3>
+              <p class="edu-label">Higher Secondary Education</p>
+            </div>
+          </article>
+
+          <!-- Card 4: Class 10 -->
+          <article class="education-card">
+            <div class="edu-top">
+              <div class="edu-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <span class="edu-abbr-badge">Secondary</span>
+            </div>
+            <div class="edu-content">
+              <h3 class="edu-qualification">Class 10</h3>
+              <p class="edu-label">Secondary Education</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. FEATURED PROJECTS SECTION
+         ========================================================================= -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Building Practical Solutions Through Code</p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Employee Management System -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-number">01</span>
+              <div class="project-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Employee Management System</h3>
+              <p class="project-desc">
+                A full-stack application for managing employee records, including creating, viewing, updating, and deleting employee information.
+              </p>
+
+              <div class="project-features">
+                <span class="features-heading">Key Features:</span>
+                <ul class="features-list">
+                  <li>Employee CRUD operations</li>
+                  <li>REST API integration</li>
+                  <li>Database connectivity</li>
+                  <li>Responsive user interface</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="#contact" class="project-action-link" aria-label="View Employee Management System project details">
+                <span>View Project</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#contact" class="project-action-link project-github-link" aria-label="View Employee Management System GitHub repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Employee Payroll & HR Management System -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-number">02</span>
+              <div class="project-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <line x1="2" y1="10" x2="22" y2="10"></line>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Employee Payroll &amp; HR Management System</h3>
+              <p class="project-desc">
+                An HR management application designed to organize employee information, attendance, leave records, and payroll calculations.
+              </p>
+
+              <div class="project-features">
+                <span class="features-heading">Key Features:</span>
+                <ul class="features-list">
+                  <li>Employee record management</li>
+                  <li>Attendance and leave tracking</li>
+                  <li>Salary calculations</li>
+                  <li>HR and employee workflows</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Hibernate/JPA</span>
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="#contact" class="project-action-link" aria-label="View Employee Payroll and HR Management System project details">
+                <span>View Project</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#contact" class="project-action-link project-github-link" aria-label="View Employee Payroll and HR Management System GitHub repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Todo Management Application -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-number">03</span>
+              <div class="project-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 11 12 14 22 4"></polyline>
+                  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Todo Management Application</h3>
+              <p class="project-desc">
+                A task management application that allows users to create tasks, update task details, mark tasks as completed, and manage daily activities.
+              </p>
+
+              <div class="project-features">
+                <span class="features-heading">Key Features:</span>
+                <ul class="features-list">
+                  <li>Task creation and management</li>
+                  <li>Task completion status</li>
+                  <li>Database persistence</li>
+                  <li>Clean user interface</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="#contact" class="project-action-link" aria-label="View Todo Management Application project details">
+                <span>View Project</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#contact" class="project-action-link project-github-link" aria-label="View Todo Management Application GitHub repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Movie Management API -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-number">04</span>
+              <div class="project-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Movie Management API</h3>
+              <p class="project-desc">
+                A backend application for managing movie information through REST APIs and database operations.
+              </p>
+
+              <div class="project-features">
+                <span class="features-heading">Key Features:</span>
+                <ul class="features-list">
+                  <li>Add and retrieve movie information</li>
+                  <li>Update and delete records</li>
+                  <li>RESTful API endpoints</li>
+                  <li>Database integration</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Hibernate</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="#contact" class="project-action-link" aria-label="View Movie Management API project details">
+                <span>View Project</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#contact" class="project-action-link project-github-link" aria-label="View Movie Management API GitHub repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: Student Management System -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-number">05</span>
+              <div class="project-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Student Management System</h3>
+              <p class="project-desc">
+                A web application for organizing student details and maintaining student records through a structured interface.
+              </p>
+
+              <div class="project-features">
+                <span class="features-heading">Key Features:</span>
+                <ul class="features-list">
+                  <li>Add student records</li>
+                  <li>View student information</li>
+                  <li>Update and delete details</li>
+                  <li>Form handling and validation</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Django</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="#contact" class="project-action-link" aria-label="View Student Management System project details">
+                <span>View Project</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#contact" class="project-action-link project-github-link" aria-label="View Student Management System GitHub repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 6: Personal Portfolio Website -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <span class="project-number">06</span>
+              <div class="project-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">
+                A responsive personal website showcasing professional experience, education, technical skills, and development projects.
+              </p>
+
+              <div class="project-features">
+                <span class="features-heading">Key Features:</span>
+                <ul class="features-list">
+                  <li>Responsive design</li>
+                  <li>Section-based navigation</li>
+                  <li>Project showcase</li>
+                  <li>Resume and contact links</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="#home" class="project-action-link" aria-label="View Personal Portfolio Website home">
+                <span>View Project</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#contact" class="project-action-link project-github-link" aria-label="View Personal Portfolio Website GitHub repository">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. FRONTEND AND BACKEND DEVELOPMENT SECTION (WHAT I DO)
+         ========================================================================= -->
+    <section class="section what-i-do-section" id="what-i-do">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Core Focus</span>
+          <h2 class="section-title">What I Do</h2>
+          <p class="section-subtitle">Comprehensive Full Stack Engineering Capabilities</p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="what-i-do-grid">
+          <!-- Card 1: Frontend Development -->
+          <article class="service-card">
+            <div class="service-card-top">
+              <div class="service-icon-wrap" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div>
+                <span class="service-kicker">Client Side</span>
+                <h3 class="service-title">Frontend Development</h3>
+              </div>
+            </div>
+
+            <p class="service-desc">
+              Designing responsive, accessible, and visually engaging user interfaces that provide a smooth user experience.
+            </p>
+
+            <div class="service-tech-block">
+              <span class="service-tech-title">Technologies:</span>
+              <div class="service-tech-tags">
+                <span class="service-pill">HTML</span>
+                <span class="service-pill">CSS</span>
+                <span class="service-pill">JavaScript</span>
+                <span class="service-pill">React.js</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Backend Development -->
+          <article class="service-card">
+            <div class="service-card-top">
+              <div class="service-icon-wrap" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path>
+                  <path d="M12 12v9"></path>
+                  <path d="m8 17 4 4 4-4"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="service-kicker">Server Side</span>
+                <h3 class="service-title">Backend Development</h3>
+              </div>
+            </div>
+
+            <p class="service-desc">
+              Developing application logic, REST APIs, and database-connected applications using modern programming technologies.
+            </p>
+
+            <div class="service-tech-block">
+              <span class="service-tech-title">Technologies:</span>
+              <div class="service-tech-tags">
+                <span class="service-pill">Java</span>
+                <span class="service-pill">Spring Boot</span>
+                <span class="service-pill">Python</span>
+                <span class="service-pill">Django</span>
+                <span class="service-pill">SQL</span>
+                <span class="service-pill">MySQL</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         9. CONTACT SECTION
+         ========================================================================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pill">Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">Have a project, opportunity, or idea? Let's connect and explore possibilities.</p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact Details & Social Links -->
+          <div class="contact-details-card">
+            <h3 class="contact-details-heading">Contact Information</h3>
+            <p class="contact-details-sub">
+              Feel free to reach out for software development positions, training collaborations, or technical projects.
+            </p>
+
+            <div class="contact-items-stack">
+              <!-- Name -->
+              <div class="contact-item" data-copy="Meghana Agarwal" title="Click to copy name">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="contact-item-text">
+                  <span class="item-label">Name</span>
+                  <span class="item-value">Meghana Agarwal</span>
+                </div>
+                <span class="copy-hint" title="Copy to clipboard">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </span>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-item" data-copy="[Add your email address]" title="Click to copy email">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-item-text">
+                  <span class="item-label">Email</span>
+                  <span class="item-value item-placeholder">[Add your email address]</span>
+                </div>
+                <span class="copy-hint" title="Copy to clipboard">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </span>
+              </div>
+
+              <!-- GitHub -->
+              <div class="contact-item" data-copy="[Add your GitHub profile URL]" title="Click to copy GitHub URL">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div class="contact-item-text">
+                  <span class="item-label">GitHub</span>
+                  <span class="item-value item-placeholder">[Add your GitHub profile URL]</span>
+                </div>
+                <span class="copy-hint" title="Copy to clipboard">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </span>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-item" data-copy="[Add your LinkedIn profile URL]" title="Click to copy LinkedIn URL">
+                <div class="contact-item-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-item-text">
+                  <span class="item-label">LinkedIn</span>
+                  <span class="item-value item-placeholder">[Add your LinkedIn profile URL]</span>
+                </div>
+                <span class="copy-hint" title="Copy to clipboard">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Visual Form Ready for Integration -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Send a Message</h3>
+            <p class="form-subtext">Fill in your information below to get in touch.</p>
+
+            <form class="contact-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="fullname" class="form-label">Full Name <span class="required-indicator">*</span></label>
+                <input 
+                  type="text" 
+                  id="fullname" 
+                  name="fullname" 
+                  class="form-input" 
+                  placeholder="Your full name" 
+                  required
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="required-indicator">*</span></label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="name@example.com" 
+                  required
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject <span class="required-indicator">*</span></label>
+                <input 
+                  type="text" 
+                  id="subject" 
+                  name="subject" 
+                  class="form-input" 
+                  placeholder="Subject of your message" 
+                  required
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required-indicator">*</span></label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  rows="4" 
+                  class="form-textarea" 
+                  placeholder="Write your message here..." 
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Dynamic Form Feedback Banner -->
+              <div id="form-feedback" class="form-feedback" style="display: none;" role="status">
+                <div class="feedback-icon" aria-hidden="true">✓</div>
+                <div class="feedback-content">
+                  <strong class="feedback-title">Message Sent!</strong>
+                  <p class="feedback-desc">Thank you for reaching out. Meghana will get back to you shortly.</p>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       10. FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <!-- Footer Brand & Care Note -->
+        <div class="footer-brand-wrap">
+          <a href="#home" class="nav-brand footer-brand" aria-label="Meghana Agarwal Home">
+            <span class="brand-logo">MA</span>
+            <span class="brand-name">Meghana Agarwal</span>
+          </a>
+          <p class="footer-care-note">Designed with care by Meghana Agarwal.</p>
+        </div>
+
+        <!-- Footer Links: Home, Projects, Contact, GitHub placeholder, LinkedIn placeholder -->
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+            <li><a href="#contact" class="footer-link">GitHub</a></li>
+            <li><a href="#contact" class="footer-link">LinkedIn</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">&copy; 2026 Meghana Agarwal. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       11. INTERACTIVE FLOATING ELEMENTS & TOASTS
+       ========================================================================= -->
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Universal Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+</body>
+</html>
